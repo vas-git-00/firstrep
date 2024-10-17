@@ -12,8 +12,6 @@ import PageNotFound from './pages/pageNotFound/PageNotFound'
 import UserSingle from './pages/users/userSingle/UserSingle'
 import Chats from './pages/chats/Chats'
 
-//ssxsx
-
 function App() {
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated)
 
